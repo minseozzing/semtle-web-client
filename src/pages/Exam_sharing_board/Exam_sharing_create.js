@@ -116,7 +116,7 @@ function Exam_sharing_create() {
         <input type="text" name="createBy" value={createBy} onChange={onChange} placeholder="작성자" />
       </div> */}
       <div className="form-group">
-        <Toasteditor currentBoard={board} ref={editorRef} />
+        <Toasteditor_noimage currentBoard={board} ref={editorRef} />
       </div>
       <div className="form-group">
         <input type="file" multiple onChange={onFileChange} />

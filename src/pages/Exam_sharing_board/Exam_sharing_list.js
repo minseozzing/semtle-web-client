@@ -79,7 +79,7 @@ const Exam_sharing_list = props => {
       
       <div className='flex-body'> 
         <div className='header-container'>
-          <span className="Exam_sharing-title">족보게시판</span>
+          <span className="study-title">족보게시판</span>
           <div className='Dropbutton'><Dropdownbutton postlist={posts} menurank={setRankmenu}></Dropdownbutton></div>
         </div>
         <div className='boardlist-table'>
